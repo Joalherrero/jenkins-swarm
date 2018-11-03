@@ -1,4 +1,5 @@
-FROM jenkins/jenkins:lts
+ARG  CODE_VERSION=lts
+FROM jenkins/jenkins:${CODE_VERSION}
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
