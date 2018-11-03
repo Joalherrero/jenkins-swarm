@@ -15,4 +15,4 @@ Based on the [official image](https://registry.hub.docker.com/_/jenkins/).
 
 # Building
 
-    docker build -t csanchez/jenkins-swarm .
+    docker build -t joalherrero/jenkins-swarm .
